@@ -14,6 +14,7 @@ public class twoSum {
 		
 
 		for(int i=0 ; i< arr.length ; i++) {
+			
 			int diff = target - arr[i];
 			
 			if(hm.containsKey(diff))
